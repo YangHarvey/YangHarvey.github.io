@@ -2,12 +2,12 @@
 title: Acknowledgment
 permalink: /thanks/
 layout: page
-excerpt: Thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
+excerpt: 此博客基于jekyll中的模板klise制作
 comments: false
 ---
 
-Thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
+此博客基于jekyll中的模板klise制作，klise的代码仓库位于[此处](https://github.com/piharpi/jekyll-klise)。
 
 <hr>
 
-Hopefully the knowledge that I got from them can be useful, and become a charity for them, Aamiin.
+昨天是段历史，明天是个谜团，而今天是天赐的礼物，像珍惜礼物那样珍惜今天
