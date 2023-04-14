@@ -10,7 +10,7 @@ comments: false
 
 如果您需要联系我，这里是我的邮箱和github账户
 
-**may u needs ✨**
+**你可能需要 ✨**
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}
