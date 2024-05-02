@@ -3,12 +3,12 @@
     "short_name": "",
     "icons": [
         {
-            "src": "/wuliuqi.jpg",
+            "src": "/wuliuqi-192x192.png",
             "sizes": "192x192",
-            "type": "image/jpg"
+            "type": "image/png"
         },
         {
-            "src": "/wuliuqi.jpg",
+            "src": "/wuliuqi-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         }
