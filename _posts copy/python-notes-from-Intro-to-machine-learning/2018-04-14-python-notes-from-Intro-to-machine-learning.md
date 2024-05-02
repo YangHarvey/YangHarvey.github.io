@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Python Notes from Intro to Machine Learning
 date: 2018-04-14 10:00:00 +07:00
 tags: [python, machine-learning]
@@ -556,4 +556,4 @@ The `percentile` is the percentage of features that we'd like to select based on
 
 **This article is for Demo purpose**
 
-The article was originally on [this repo](https://github.com/risan/risanb.com/blob/master/content/posts/python-notes-from-intro-to-machine-learning/index.md)
+The article was originally on [this repo](https://github.com/risan/risanb.com/blob/master/content/posts/python-notes-from-intro-to-machine-learning/index.md) -->

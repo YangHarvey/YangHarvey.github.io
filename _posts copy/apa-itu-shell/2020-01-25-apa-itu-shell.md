@@ -1,4 +1,4 @@
----
+<!-- ---
 title: What is a shell? 🐚 adalah kerang ajaib?
 date: 2020-01-25 11:58:47 +07:00
 modified: 2020-02-02 16:49:47 +07:00
@@ -118,4 +118,4 @@ Terimakasih sudah baca, _penulis menerima kritik dan saran._
 
 - [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
 - [Kernel Defintion](http://www.linfo.org/kernel.html)
-- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
+- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html) -->

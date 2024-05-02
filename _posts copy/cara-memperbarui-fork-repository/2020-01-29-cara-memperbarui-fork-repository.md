@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Cara ribet memperbarui forked repo
 date: 2020-01-29 01:00 +0700
@@ -68,4 +68,4 @@ Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang 
 ##### Resources
 
 - [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-- [Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top)
+- [Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top) -->

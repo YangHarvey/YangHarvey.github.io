@@ -1,4 +1,4 @@
----
+<!-- ---
 title: How this site was born 👶
 date: 2018-09-28 09:45:47 +07:00
 modified: 2019-08-29 09:24:47 +07:00
@@ -61,4 +61,4 @@ Go [netlify](https://netlify.com) dashboard, and following this step.
 
 Wait for moment, and voila..! your site's are hosting and using `.netlify.com` tld, if your website wants to look professional, just buy a domain from your favorite domain store. or if you the first time, I advice using namecheap.com*(isn't sponsor)* \*based on my experienced it provides good service and have various TLDs.
 
-So, what you waiting for, just create your own website for free.
+So, what you waiting for, just create your own website for free. -->

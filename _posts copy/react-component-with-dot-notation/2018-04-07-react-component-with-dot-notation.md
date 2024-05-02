@@ -1,4 +1,4 @@
----
+<!-- ---
 title: React Component with Dot Notation
 date: 2018-04-07 23:04:00 +07:00
 tags: [javascript, react]
@@ -109,4 +109,4 @@ export default class Menu extends Component {
 
 **This article is for Demo purpose**
 
-The article was originally on [this repo](https://github.com/risan/risanb.com/blob/master/content/posts/react-component-with-dot-notation/index.md)
+The article was originally on [this repo](https://github.com/risan/risanb.com/blob/master/content/posts/react-component-with-dot-notation/index.md) -->
