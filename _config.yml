@@ -2,8 +2,8 @@
 title: 杨世明 # site title
 description: >- # site description
   我于中国人民大学攻读博士学位，方向为数据库，这个博客作为记事本，记录自己的学习历程。这里是我的github主页<a href= "https://github.com/YangHarvey" target="_blank" rel="noopener">@github</a>.
-lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+lang: zh-CN # default lang
+timezone: Asia/Shanghai # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/YangHarvey/YangHarvey.github.io.git # site repo [optional]
 mode: light # default theme "dark" | "light"
