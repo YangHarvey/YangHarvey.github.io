@@ -1,6 +1,6 @@
 ---
 title: 内存分配器buffer_allocator(cpp)
-date: 2024-07-13 20:45:60
+date: 2024-07-04 20:45:60
 tags: [rdma, buffer allocator]
 description: 2024-07-04-内存分配器buffer_allocator
 layout: post
