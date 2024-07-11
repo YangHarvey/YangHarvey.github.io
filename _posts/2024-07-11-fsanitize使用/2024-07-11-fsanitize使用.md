@@ -31,4 +31,18 @@ target_compile_options(lib/program PRIVATE -fsanitize=address)
 target_link_options(lib/program PRIVATE -fsanitize=address)
 ```
 
+`fsanitize=address`选项会在检测到内存错误时abort程序，但是很多时候我们需要让程序检测到内存错误时继续运行而不是直接崩溃，那么我们可以用`fsanitize-recover=address`，然后引入环境变量`ASAN_OPTIONS=halt_on_error=0`，用法如下:
+
+```cmake 
+add_compile_options(-fsanitize=address -fsanitize-recover=address)
+add_link_options(-fsanitize=address -fsanitize-recover=address)
+```
+然后引入环境变量`export ASAN_OPTIONS=halt_on_error=0`，再运行程序，就不会再遇到内存错误时立刻崩溃了
+
+如果感觉调试信息还不够，还可以加`-fno-omit-frame-pointer`选项，这个选项会禁用优化，保留帧指针，这有助于在发生错误时提供更准确的调用栈信息。
+
+但是上述选项都会对性能有影响，因此最好只在调试时使用
+
+
+
 
