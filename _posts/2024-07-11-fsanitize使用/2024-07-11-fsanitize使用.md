@@ -6,6 +6,8 @@ description: 2024-07-11-fsanitize使用
 layout: post
 ---
 
+## fsanitize使用
+
 fsanitize可以很好的帮我们捕捉程序中的内存错误，例如段错误或者double free等等，但是我发现我之前在cpp项目中使用的方式不太正确，通常我是在cmake项目中传递`fsanitize=address`的标志给编译器
 
 ```cmake
@@ -31,6 +33,8 @@ target_compile_options(lib/program PRIVATE -fsanitize=address)
 target_link_options(lib/program PRIVATE -fsanitize=address)
 ```
 
+## fsanitize-recover使用
+
 `fsanitize=address`选项会在检测到内存错误时abort程序，但是很多时候我们需要让程序检测到内存错误时继续运行而不是直接崩溃，那么我们可以用`fsanitize-recover=address`，然后引入环境变量`ASAN_OPTIONS=halt_on_error=0`，用法如下:
 
 ```cmake 
@@ -41,7 +45,9 @@ add_link_options(-fsanitize=address -fsanitize-recover=address)
 
 如果感觉调试信息还不够，还可以加`-fno-omit-frame-pointer`选项，这个选项会禁用优化，保留帧指针，这有助于在发生错误时提供更准确的调用栈信息。
 
-但是上述选项都会对性能有影响，因此最好只在调试时使用
+## 总结
+
+上述选项都会对性能有影响，因此最好只在调试时使用
 
 
 
