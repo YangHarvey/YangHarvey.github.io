@@ -16,7 +16,7 @@ layout: post
 安装过程就不赘述了，除了管理员密码以外，其余都可以无脑用默认的设置。
 
 连接`kingbase`需要用到它给的工具，名字是`KStudio`数据库开发管理工具。填上管理员密码就可以连接到`kingbase`了
-![Alt text](image.png)
+![Alt text](./image.png)
 
 其余的操作和使用其他数据库没有什么不同，包括创建数据库，创建模式，创建表等等。
 
@@ -111,13 +111,13 @@ public class JDBCTest {
 
 那么我们如何运行这段程序呢？
 这里我们需要从`kingbase`官网的[下载中心](https://www.kingbase.com.cn/xzzx/index.htm)里中找到JDBC的驱动
-![Alt text](image-1.png)
+![Alt text](./image-1.png)
 
 然后在项目中加载这些驱动即可。在`eclipse`中，我们可以点击`File->Properties->Libraries-Add JARs`，选择我们下载的`jar`包，然后点击`Apply`加载`JDBC`驱动。
 
 这里我已经加载好了
-![Alt text](image-2.png)
+![Alt text](./image-2.png)
 
 现在我们就可以运行这一段程序了
-![Alt text](image-3.png)
+![Alt text](./image-3.png)
 
